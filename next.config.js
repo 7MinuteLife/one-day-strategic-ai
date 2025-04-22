@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx']
-};
-
-module.exports = nextConfig; 
+  // Focus only on pages directory, not src/app
+  distDir: '.next',
+  // Don't search pages in src directory
+  useFileSystemPublicRoutes: true
+}; 
