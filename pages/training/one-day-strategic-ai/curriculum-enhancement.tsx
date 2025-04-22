@@ -1,3 +1,4 @@
+// pages/training/one-day-strategic-ai/curriculum-enhancement.tsx
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
 
@@ -8,48 +9,39 @@ export default function CurriculumEnhancementPage() {
         <h1 className="text-4xl font-bold mb-6">Curriculum Enhancement Options</h1>
         
         <div className="bg-blue-50 p-6 rounded-lg mb-8">
-          <h2 className="text-2xl font-bold mb-4">Tailored Training Solutions</h2>
+          <h2 className="text-2xl font-bold mb-4">Opportunities for Curriculum Improvement</h2>
           <p className="mb-4">
-            Our core 7-hour strategic AI training program can be enhanced with additional modules tailored to your organization's specific needs.
-          </p>
-          <p>
-            These optional enhancement modules can be added to create a more comprehensive training experience.
+            Our core training program can be enhanced with additional modules and learning approaches to better serve different learning styles and organizational needs.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <div className="border rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-2">Industry-Specific Case Studies</h3>
-            <p className="mb-4">Deep dive into AI applications specific to your industry with tailored case studies and examples.</p>
-            <p className="text-gray-600">Duration: +2 hours</p>
-          </div>
-          
-          <div className="border rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-2">Technical Deep Dive</h3>
-            <p className="mb-4">For teams with technical members, a more detailed exploration of AI technologies and implementation considerations.</p>
-            <p className="text-gray-600">Duration: +3 hours</p>
-          </div>
-          
-          <div className="border rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-2">AI Ethics Workshop</h3>
-            <p className="mb-4">Interactive session focused on ethical considerations, risk management, and governance of AI initiatives.</p>
-            <p className="text-gray-600">Duration: +2 hours</p>
-          </div>
-          
-          <div className="border rounded-lg p-6">
-            <h3 className="text-xl font-semibold mb-2">Strategic Planning Session</h3>
-            <p className="mb-4">Facilitated workshop to develop a preliminary AI strategy roadmap specific to your organization.</p>
-            <p className="text-gray-600">Duration: +4 hours</p>
-          </div>
-        </div>
+        <ul className="list-disc pl-5 mb-8 space-y-4">
+          <li>
+            <strong className="text-xl font-semibold">Structured Learning Paths</strong>
+            <p className="mt-1">Guide learners step-by-step from fundamentals through advanced topics, with quizzes and check-ins.</p>
+          </li>
+          <li>
+            <strong className="text-xl font-semibold">Practical Hands-On Exercises</strong>
+            <p className="mt-1">Breakout labs where participants build prompts and workflows live, cementing their skills.</p>
+          </li>
+          <li>
+            <strong className="text-xl font-semibold">Industry-Specific Use Cases</strong>
+            <p className="mt-1">Tailored tracks (mortgage, recruiting, coaching, L&D) that directly address each sector's unique challenges.</p>
+          </li>
+          <li>
+            <strong className="text-xl font-semibold">Ethical Considerations Deep-Dive</strong>
+            <p className="mt-1">Expanded section on data privacy, compliance, and bias mitigation.</p>
+          </li>
+          <li>
+            <strong className="text-xl font-semibold">Technical Support Materials</strong>
+            <p className="mt-1">Clear setup guides, troubleshooting tips, and pre-session checklists to reduce friction.</p>
+          </li>
+        </ul>
         
         <div className="bg-gray-50 p-6 rounded-lg mb-8">
-          <h2 className="text-2xl font-bold mb-4">Multi-Day Options</h2>
+          <h2 className="text-2xl font-bold mb-4">Custom Curriculum Development</h2>
           <p className="mb-4">
-            For organizations seeking a more immersive experience, we offer extended 2-3 day programs that combine our core training with multiple enhancement modules and hands-on workshops.
-          </p>
-          <p>
-            Contact us to discuss a custom multi-day curriculum tailored to your specific organizational needs and objectives.
+            We can work with your leadership team to develop a completely customized curriculum that aligns perfectly with your organization's specific AI strategy and implementation goals.
           </p>
         </div>
         
@@ -58,10 +50,11 @@ export default function CurriculumEnhancementPage() {
             Back to Training Overview
           </Link>
           <Link href="/contact" className="btn-primary">
-            Discuss Custom Options
+            Discuss Curriculum Options
           </Link>
         </div>
       </div>
     </Layout>
   )
-} 
+}
+
