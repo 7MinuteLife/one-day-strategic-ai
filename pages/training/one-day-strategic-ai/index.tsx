@@ -1,14 +1,19 @@
+// pages/training/one-day-strategic-ai/index.tsx
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
 
-export default function TrainingPage() {
+export default function OverviewPage() {
   return (
     <Layout>
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-6">One-Day Strategic AI Training</h1>
-        
+        <p className="text-lg mb-8">
+          In 8 hours you'll learn core AI concepts, master strategic prompting, run hands-on labs,
+          and leave with a personalized 90-day AI action plan.
+        </p>
+
         <div className="bg-blue-50 p-6 rounded-lg mb-8">
-          <h2 className="text-2xl font-bold mb-4">Training Overview</h2>
+          <h2 className="text-2xl font-bold mb-4">Program Overview</h2>
           <p className="mb-4">
             Our intensive 7-hour program helps your team understand and leverage AI for strategic business advantage.
           </p>
@@ -16,16 +21,7 @@ export default function TrainingPage() {
             This hands-on workshop covers everything from AI fundamentals to practical implementation strategies.
           </p>
         </div>
-        
-        <h2 className="text-2xl font-bold mb-4">What You'll Learn</h2>
-        <ul className="list-disc pl-5 mb-8 space-y-2">
-          <li>AI foundations and key terminology</li>
-          <li>Strategic frameworks for AI implementation</li>
-          <li>Identifying high-impact AI opportunities</li>
-          <li>Practical tools for non-technical professionals</li>
-          <li>Ethical considerations and best practices</li>
-        </ul>
-        
+
         <h2 className="text-2xl font-bold mb-4">Training Resources</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
           <Link href="/training/one-day-strategic-ai/key-insights" className="block p-4 border rounded-lg hover:bg-gray-50">
@@ -70,4 +66,4 @@ export default function TrainingPage() {
       </div>
     </Layout>
   )
-} 
+}
