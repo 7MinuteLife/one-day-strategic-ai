@@ -1,3 +1,4 @@
+// pages/training/one-day-strategic-ai/key-insights.tsx
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
 
@@ -5,45 +6,61 @@ export default function KeyInsightsPage() {
   return (
     <Layout>
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-6">Key Insights from Our Training</h1>
+        <h1 className="text-4xl font-bold mb-6">Key Insights & Themes</h1>
         
         <div className="bg-blue-50 p-6 rounded-lg mb-8">
-          <h2 className="text-2xl font-bold mb-4">What You'll Learn</h2>
+          <h2 className="text-2xl font-bold mb-4">What You'll Gain</h2>
           <p className="mb-4">
-            Our strategic AI training provides critical insights that transform how business leaders think about AI implementation.
+            Our Strategic AI Training delivers powerful insights that will transform how your team approaches AI implementation.
           </p>
           <p>
-            Here are some of the key perspectives you'll gain during our intensive 7-hour program.
+            These key themes run throughout our program and form the foundation of effective AI strategy.
           </p>
         </div>
         
-        <div className="space-y-8 mb-8">
-          <div className="border-l-4 border-blue-500 pl-4">
-            <h3 className="text-xl font-semibold mb-2">AI is Not a Technology Problem</h3>
-            <p>Successful AI implementation is 20% about technology and 80% about people, processes, and organizational culture.</p>
-          </div>
-          
-          <div className="border-l-4 border-blue-500 pl-4">
-            <h3 className="text-xl font-semibold mb-2">Start Small, Think Big</h3>
-            <p>The most successful AI initiatives begin with focused pilot projects that demonstrate value quickly, then scale methodically.</p>
-          </div>
-          
-          <div className="border-l-4 border-blue-500 pl-4">
-            <h3 className="text-xl font-semibold mb-2">Data Strategy is Critical</h3>
-            <p>Without quality data and a coherent data strategy, even the most sophisticated AI technologies will fail to deliver value.</p>
-          </div>
-          
-          <div className="border-l-4 border-blue-500 pl-4">
-            <h3 className="text-xl font-semibold mb-2">The Ethical Dimension</h3>
-            <p>Ethical considerations should be built into AI initiatives from the beginning, not added as an afterthought.</p>
-          </div>
-        </div>
+        <ol className="list-decimal pl-5 mb-8 space-y-6">
+          <li className="pl-2">
+            <h3 className="text-xl font-semibold">The Fundamental Shift from Single-Shot to Strategic Prompting</h3>
+            <p>
+              Moving beyond one-off questions to multi-step, goal-driven prompts unlocks far better results—
+              participants had "light-bulb moments" once they structured their queries.
+            </p>
+          </li>
+          <li className="pl-2">
+            <h3 className="text-xl font-semibold">AI as Workforce Amplifier, Not Replacement</h3>
+            <p>
+              AI boosts output so people can focus on creative, high-value work. "Your son with AI is now
+              worth double what he was worth," as one attendee put it.
+            </p>
+          </li>
+          <li className="pl-2">
+            <h3 className="text-xl font-semibold">The Value of AI Literacy in All Industries</h3>
+            <p>
+              Understanding how AI works—and not just how to use it—is becoming essential across sectors,
+              from mortgage to coaching.
+            </p>
+          </li>
+          <li className="pl-2">
+            <h3 className="text-xl font-semibold">The Emergence of "Agentic" AI Systems</h3>
+            <p>
+              We can spin up AI "agents" (e.g. a dedicated social-media marketer or CFO) that function like
+              specialized team members.
+            </p>
+          </li>
+          <li className="pl-2">
+            <h3 className="text-xl font-semibold">Tool Selection Hierarchy</h3>
+            <p>
+              Different tools for different tasks: ChatGPT for creative writing, Claude for formal docs,
+              Perplexity for research, Gamma for slides, etc.
+            </p>
+          </li>
+        </ol>
         
         <div className="bg-gray-50 p-6 rounded-lg mb-8">
-          <h2 className="text-2xl font-bold mb-4">From Our Participants</h2>
+          <h2 className="text-2xl font-bold mb-4">Participant Feedback</h2>
           <blockquote className="italic border-l-4 border-gray-300 pl-4 py-2 mb-4">
-            "This training completely changed my perspective on how AI can be strategically implemented in our organization. The frameworks provided were immediately applicable."
-            <p className="text-gray-600 mt-2">— Marketing Director, Fortune 500 Company</p>
+            "The insights gained from this training completely changed how our team approaches AI integration. We're now achieving results we didn't think were possible six months ago."
+            <p className="text-gray-600 mt-2 not-italic">— Marketing Director, Financial Services</p>
           </blockquote>
         </div>
         
@@ -58,4 +75,4 @@ export default function KeyInsightsPage() {
       </div>
     </Layout>
   )
-} 
+}
